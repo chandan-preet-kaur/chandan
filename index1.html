@@ -1,0 +1,58 @@
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        input[type=text],[type=password],select,[type=submit] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            display: inline-block;
+            border-radius: 5px;
+            border: solid;
+        }
+        .submit_class{
+            background-color: yellow;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        input[type=submit]:hover{
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index1.html">Register</a></li>
+            <li><a href="index4.html">Product</a></li>
+        </ul>
+    </nav>
+    <div class="form_div">
+        <div class="offer_title">Register for offers here !!!</div>
+        <div class="inner_form_div">
+            <form>
+                <label>First Name</label><input type="text" placeholder="Enter your first name">
+                <label>Last Name</label><input type="text" placeholder="Enter your last name">
+                <label>Email</label><input type="text" placeholder="Enter your email">
+                <label>Password</label><input type="password" placeholder="Enter your password">
+                <label>Address</label><input type="text" placeholder="Enter your address">
+                <label>City</label>
+                <select>
+                <option>Toronto</option>
+                <option>Brampton</option>
+                <option>Montreal</option>
+                <option>Calgary</option>
+                </select>
+                <label>Gender</label>
+                <br>
+                <input type="radio" name="Gender"><label>Male</label>
+                <input type="radio" name="Gender"><label>Female</label>
+                <br>
+                <input type="submit" value="Submit" class="submit_class">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
